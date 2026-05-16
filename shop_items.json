@@ -1,0 +1,180 @@
+{
+    "items": {
+        "custom_role": {
+            "id": "custom_role",
+            "name": "Custom Role",
+            "description": "Create your own custom role with a name of your choice",
+            "price": 5000,
+            "category": "role",
+            "type": "permanent",
+            "emoji": "\ud83d\udc51"
+        },
+        "color_red": {
+            "id": "color_red",
+            "name": "Red Role Color",
+            "description": "Change your role color to red",
+            "price": 1000,
+            "category": "color",
+            "type": "permanent",
+            "color": 16711680,
+            "emoji": "\ud83d\udd34"
+        },
+        "color_blue": {
+            "id": "color_blue",
+            "name": "Blue Role Color",
+            "description": "Change your role color to blue",
+            "price": 1000,
+            "category": "color",
+            "type": "permanent",
+            "color": 255,
+            "emoji": "\ud83d\udd35"
+        },
+        "color_green": {
+            "id": "color_green",
+            "name": "Green Role Color",
+            "description": "Change your role color to green",
+            "price": 1000,
+            "category": "color",
+            "type": "permanent",
+            "color": 65280,
+            "emoji": "\ud83d\udfe2"
+        },
+        "color_purple": {
+            "id": "color_purple",
+            "name": "Purple Role Color",
+            "description": "Change your role color to purple",
+            "price": 1500,
+            "category": "color",
+            "type": "permanent",
+            "color": 8388736,
+            "emoji": "\ud83d\udfe3"
+        },
+        "color_gold": {
+            "id": "color_gold",
+            "name": "Gold Role Color",
+            "description": "Change your role color to gold",
+            "price": 2000,
+            "category": "color",
+            "type": "permanent",
+            "color": 16766720,
+            "emoji": "\ud83d\udfe1"
+        },
+        "xp_boost_1h": {
+            "id": "xp_boost_1h",
+            "name": "2x XP Boost (1 Hour)",
+            "description": "Double your XP gain for 1 hour",
+            "price": 500,
+            "category": "perk",
+            "type": "consumable",
+            "duration": 3600,
+            "multiplier": 2.0,
+            "emoji": "\u26a1"
+        },
+        "xp_boost_24h": {
+            "id": "xp_boost_24h",
+            "name": "2x XP Boost (24 Hours)",
+            "description": "Double your XP gain for 24 hours",
+            "price": 3000,
+            "category": "perk",
+            "type": "consumable",
+            "duration": 86400,
+            "multiplier": 2.0,
+            "emoji": "\u26a1"
+        },
+        "xp_boost_7d": {
+            "id": "xp_boost_7d",
+            "name": "2x XP Boost (7 Days)",
+            "description": "Double your XP gain for 7 days",
+            "price": 15000,
+            "category": "perk",
+            "type": "consumable",
+            "duration": 604800,
+            "multiplier": 2.0,
+            "emoji": "\u26a1"
+        },
+        "four_leaf_clover": {
+            "id": "four_leaf_clover",
+            "name": "Four-Leaf Clover",
+            "description": "+5% win chance on all gambling games",
+            "price": 2500,
+            "category": "luck",
+            "type": "consumable",
+            "uses": 10,
+            "luck_boost": 0.05,
+            "emoji": "\ud83c\udf40"
+        },
+        "lucky_gloves": {
+            "id": "lucky_gloves",
+            "name": "Lucky Gloves",
+            "description": "+10% win chance on all gambling games",
+            "price": 5000,
+            "category": "luck",
+            "type": "consumable",
+            "uses": 20,
+            "luck_boost": 0.1,
+            "emoji": "\ud83e\udde4"
+        },
+        "extra_cards": {
+            "id": "extra_cards",
+            "name": "Extra Cards",
+            "description": "+15% better outcomes in Blackjack",
+            "price": 3500,
+            "category": "luck",
+            "type": "consumable",
+            "uses": 15,
+            "luck_boost": 0.15,
+            "game_specific": "blackjack",
+            "emoji": "\ud83c\udccf"
+        },
+        "golden_dice": {
+            "id": "golden_dice",
+            "name": "Golden Dice",
+            "description": "+20% win chance on dice rolls",
+            "price": 4000,
+            "category": "luck",
+            "type": "consumable",
+            "uses": 12,
+            "luck_boost": 0.2,
+            "game_specific": "dice",
+            "emoji": "\ud83c\udfb2"
+        },
+        "rabbits_foot": {
+            "id": "rabbits_foot",
+            "name": "Rabbit's Foot",
+            "description": "+8% win chance on all gambling games",
+            "price": 6000,
+            "category": "luck",
+            "type": "consumable",
+            "uses": 25,
+            "luck_boost": 0.08,
+            "emoji": "\ud83d\udc30"
+        },
+        "badge_achiever": {
+            "id": "badge_achiever",
+            "name": "Achiever Badge",
+            "description": "Show off your achievements",
+            "price": 2000,
+            "category": "badge",
+            "type": "collectible",
+            "emoji": "\ud83c\udfc6"
+        },
+        "badge_wealthy": {
+            "id": "badge_wealthy",
+            "name": "Wealthy Badge",
+            "description": "Display your wealth",
+            "price": 5000,
+            "category": "badge",
+            "type": "collectible",
+            "emoji": "\ud83d\udcb0"
+        },
+        "badge_gambler": {
+            "id": "badge_gambler",
+            "name": "Gambler Badge",
+            "description": "For the risk takers",
+            "price": 3000,
+            "category": "badge",
+            "type": "collectible",
+            "emoji": "\ud83c\udfb0"
+        }
+    }
+}
